@@ -2,6 +2,9 @@
 The aim of the project appears to be to build a machine learning pipeline that can classify messages into one or more categories.
 The Disaster Response Application is a tool designed to classify messages received during a disaster event and categorize them into relevant categories such as medical help, food, shelter, etc. It utilizes machine learning techniques to analyze and categorize messages in real-time, providing quick and efficient aid and response during emergencies.
 
+# IMPORTANCE AND IMPACT
+This application plays a crucial role in disaster management and response efforts. By automatically categorizing incoming messages, it helps emergency responders prioritize and allocate resources effectively. This not only improves response times but also ensures that assistance reaches those in need promptly. Additionally, by streamlining the communication process, it reduces the burden on overwhelmed call centers and enables more efficient coordination among response teams.
+
  The project is divided into three main parts:
 
 1. ETL Pipeline (Extract, Transform, Load): The process_data.py file contains Python code to create an ETL pipeline. The goal is to retrieve emergency text messages and their classifications from a given dataset, clean the data, and store it in an SQLite database.

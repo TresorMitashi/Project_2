@@ -20,6 +20,15 @@ def load_data(messages_filepath, categories_filepath):
 
 
 def clean_data(df):
+      '''
+    Clean the data by removing duplicates and converting category values to binary (0 or 1)
+    
+    Input:
+    df: pandas DataFrame. The DataFrame containing the raw data.
+    
+    Output:
+    df: pandas DataFrame. The cleaned DataFrame.
+    '''
     # Split categories into separate category columns
     categories = df['categories'].str.split(';', expand=True)
     

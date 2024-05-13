@@ -25,4 +25,4 @@ Here's how you can do it step by step:
 2. Launch the ML Pipeline and Create the Model: After the ETL pipeline has finished processing the data and creating the SQLite database, execute the following command to run the ML pipeline and create the model: python models/train_classifier.py data/Disaster_Clean.db models/classifier.pkl
    
 3. Launch the Server Web: Navigate to the "app" folder in your project directory. Execute the following command to run the Flask web server: python run.py
-Once you see the confirmation message that the Flask server is running, open your web browser and go to http://127.0.0.1:3001 to access the web application.
+Once you see the confirmation message that the Flask server is running, open your web browser and go to http://0.0.0.0:3001/ to access the web application.

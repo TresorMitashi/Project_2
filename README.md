@@ -1,5 +1,6 @@
 # DESCRIPTION OF THE PROJECT
 The aim of the project appears to be to build a machine learning pipeline that can classify messages into one or more categories.
+The Disaster Response Application is a tool designed to classify messages received during a disaster event and categorize them into relevant categories such as medical help, food, shelter, etc. It utilizes machine learning techniques to analyze and categorize messages in real-time, providing quick and efficient aid and response during emergencies.
 
  The project is divided into three main parts:
 
